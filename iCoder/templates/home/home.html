@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+ {% block homeactive %}active {% endblock homeactive %}
+{% block body %}
+
+<div class="container my-3">
+<div class="jumbotron">
+  <h2 class="display-5">Welcome to iCoder</h2>
+  <p class="lead">This is something You will Love surely..</p>
+  <hr class="my-2">
+  <p>It does not use any flashy contains</p>
+  <a class="btn btn-primary btn-lg" href="/blog" role="button">Go to Blog</a>
+</div>
+</div>
+
+<div class="container" id="lk">
+<h2>Popular BlogPost</h2>
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row my-3 shadow-sm h-md-250 position-relative">
+        <div class="col p-3 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Swift API</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">Swift API Availability Code exists in a world of infinite abundance. Whatever you can imagine is willed into being — so long as you know how to express your desires. As developers, we know that code will eventually be compiled into software,and forced to compete in the real-world 
+          <a href="/blog/Swift%20API" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+        </div>
+      </div>
+    </div>
+    
+
+
+{% endblock body %}
